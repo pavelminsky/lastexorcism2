@@ -2,24 +2,15 @@
 <html>
 <head>
 <title>Последнее изгнание дьявола: Второе пришествие — В кино с 28 февраля</title>
-
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="apple-mobile-web-app-title" content="Изыди!">
 
-<link rel="shortcut icon" href="favicon.png">
-<link href='http://fonts.googleapis.com/css?family=Playfair+Display+SC:400,400italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
-<!-- normal and bold
-font-family: 'Playfair Display SC', 'Garamond', serif;
- -->
-
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
-
+<link rel="shortcut icon" href="/favicon.png">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <script type="text/javascript" src="jquery.jqpuzzle.full.js"></script> 
 <link rel="stylesheet" type="text/css" href="jquery.jqpuzzle.css" />
 
-<style>
-/* Reset + fixes */
+<style type="text/css">
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, img, b, i, ol, ul, li, fieldset, form, input, dl, dt, dd {padding: 0; margin: 0; border: 0; font-family: Arial, sans-serif; vertical-align: baseline; word-wrap: break-word;}
 ul {list-style-type: none;}
 i {font-style: normal;}
@@ -30,24 +21,20 @@ i {font-style: normal;}
 .clearfix {display: block;}
 html[xmlns] .clearfix {display: block;}
 * html .clearfix {height: 1%;}
-
-body {width: 100%; min-width: 620px; text-align: center; font-size: 1.5em; color: #000000; font-family: 'Playfair Display SC', 'Garamond', serif; background-color: #ffffff;}
-
-.age {position: absolute; top: 10px; left: 10px; width: 50px; height: 50px; z-index: 2; background: url('i/age.png') center center no-repeat;}
-
+body {width: 100%; min-width: 620px; text-align: center; font-size: 1.5em; color: #000000; font-family: 'Garamond', serif; background-color: #ffffff;}
+.age {position: absolute; top: 10px; left: 10px; width: 50px; height: 50px; z-index: 2; background: url('age.png') center center no-repeat;}
+.back {position: absolute; top: 10px; right: 10px;}
+.back a {display: block; width: 50px; height: 75px; z-index: 2; background: url('back.png') center center no-repeat;}
+.back a:hover {opacity: 0.80; -moz-opacity: 0.80; -khtml-opacity: 0.80; filter: alpha(opacity=80);}
 .puzzle_wrap {width: 500px; margin: 0 auto; text-align: center;}
-
 </style>
 
-</head>
-<body>
+</head><body>
 
 <div class="age">&nbsp;</div>
+<div class="back"><a href="/">&nbsp;</a></div>
+<div class="puzzle_wrap"><img src="puzzle.gif" alt="" class="jqPuzzle jqp-r3-c3-h1-SNABCDE" /></div>
 
-<div class="puzzle_wrap">
-	<img src="i/original.jpg" alt="" class="jqPuzzle jqp-r3-c3-h1-SNABCDE" />
-</div>
-
-
-</body>
-</html>
+<script type="text/javascript" src="jquery.queryloader2.js"></script>
+<script type="text/javascript" src="initloader.js"></script>
+</body></html>

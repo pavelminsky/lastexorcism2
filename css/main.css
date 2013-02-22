@@ -1,0 +1,220 @@
+/* -------- Let the exorcism begin -------- */
+
+
+/* Reset + universal */
+* {border: 0px;}
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, img, b, i, ol, ul, li, fieldset, form, input, dl, dt, dd {padding: 0; margin: 0; border: 0; font-weight: normal; vertical-align: baseline; word-wrap: break-word;}
+ul {list-style-type: none;}
+::selection {color: #ffffff; background: #b9b9b7;}
+::-moz-selection {color: #ffffff; background: #b9b9b7;}
+.clr {clear: both;}
+.clearfix:after {content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;}
+.clearfix {display: block;}
+html[xmlns] .clearfix {display: block;}
+* html .clearfix {height: 1%;}
+img {-ms-interpolation-mode:bicubic}
+a:focus {outline: none;}
+.dim {position: absolute; width: 100%; height: 100%; overflow: hidden; background-color: #ffffff; z-index: 9999;}
+.noSelect {-webkit-user-select: none; -moz-user-select: none; -khtml-user-select: none; -ms-user-select: none; -o-user-select: none; user-select: none;}
+
+
+
+/* Site-wide + special */
+html {height: 100%;}
+body {overflow: auto; height: 100%; min-width: 950px; min-height: 600px; background-color: #ffffff; color: #393939; line-height: 150%; font-family: 'Playfair Display SC', 'Garamond', serif;}
+
+
+a:link, a:visited {color: #eec167;}
+/*a:visited {color: #bea675;}*/
+a:hover {color: #ffdd98; text-shadow: 0px -4px 8px #a98e57;}
+
+.wrap404 {width: 800px; margin: 0 auto; text-align: center;}
+.wrap404 h2 {padding: 40px 0 30px 0; font-size: 240%;}
+.wrap404 p {font-size: 130%; line-height: 140%;}
+
+.copy {padding: 0 10px 20px 10px; font-size: 100%; color: #657379; text-align: center; opacity: 0.50; -moz-opacity: 0.850; -khtml-opacity: 0.50; filter: alpha(opacity=50);}
+
+	#counters {position: fixed; bottom: -160px; left: 10px; z-index: 1005; width: 140px; height: 180px; text-align: right; background-image:url('/images/counters.png'); background-position: right top; background-repeat: no-repeat;}
+.counters_list {padding-top: 30px; opacity: 0.40; -moz-opacity: 0.40; -khtml-opacity: 0.40; filter: alpha(opacity=40);}
+.counters_list p {padding: 0; margin: 0; padding-bottom: 6px; font-size: 11px; color: #6b767b;}
+#counters:hover {bottom: 0;}
+
+.fancybox_img img {display: none !important;}
+
+.mainWrap {position: relative; top: 0; left: 0; width: 100%; min-width: 950px; max-width: 1700px; min-height: 100px; overflow: hidden; z-index: 1; margin: 0 auto; text-align: center;}
+.mainBG {display: block; width: 100%;}
+.mainOverlay {position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 2;}
+
+
+
+/* Menu */
+.indexMenu {position: absolute; bottom: 80px; z-index: 3; width: 100%; margin: 0 auto; overflow: hidden;}
+.mainMenu {height: 40px; background: #000000 url('/images/menuBG.png') left top repeat-x;}
+.menuFadeOut_l {float: left; width: 5%; height: 40px; background: url('/images/fadeOut_l.png') left top repeat-y;}
+.menuFadeOut_r {float: right; width: 5%; height: 40px; background: url('/images/fadeOut_r.png') right top repeat-y;}
+.menuButtons {display: inline-block; width: 86%; margin: 0 auto; height: 40px; text-align: center;}
+.menuButtons a {display: inline-block; width: 110px; height: 40px; margin-right: 2px; background: url('/images/menuButtons.png') left top no-repeat;}
+.menuButtons a, .menuButtons a:hover, .menuButtons a:visited, .menuButtons a:active {text-indent: -9999px; text-decoration: none;}
+.menuButtons a.index, .menuButtons a.index.disabled:hover {background-position: 0 0;}
+.menuButtons a.index:hover, .menuButtons a.index.active {background-position: 0 -40px;}
+.menuButtons a.news, .menuButtons a.news.disabled:hover {background-position: -110px 0;}
+.menuButtons a.news:hover, .menuButtons a.news.active {background-position: -110px -40px;}
+.menuButtons a.books, .menuButtons a.books.disabled:hover {background-position: -220px 0;}
+.menuButtons a.books:hover, .menuButtons a.books.active {background-position: -220px -40px;}
+.menuButtons a.about, .menuButtons a.about.disabled:hover {background-position: -330px 0;}
+.menuButtons a.about:hover, .menuButtons a.about.active {background-position: -330px -40px;}
+.menuButtons a.team, .menuButtons a.team.disabled:hover {background-position: -440px 0;}
+.menuButtons a.team:hover, .menuButtons a.team.active {background-position: -440px -40px;}
+.menuButtons a.video, .menuButtons a.video.disabled:hover {background-position: -550px 0;}
+.menuButtons a.video:hover, .menuButtons a.video.active {background-position: -550px -40px;}
+.menuButtons a.gallery, .menuButtons a.gallery.disabled:hover {background-position: -660px 0;}
+.menuButtons a.gallery:hover, .menuButtons a.gallery.active {background-position: -660px -40px;}
+.menuButtons a.disabled {cursor: default; opacity: 0.40; -moz-opacity: 0.40; -khtml-opacity: 0.40; filter: alpha(opacity=40);}
+.menuButtons a.active {cursor: default;}
+
+
+
+/* Index */
+.mainLogo {position: absolute; bottom: 140px; left: 50%; width: 70%; z-index: 2; margin-left: -35%;}
+.mainCast {position: absolute; bottom: 132px; left: 45%; width: 48%; z-index: 2; margin-left: -24%;}
+.mainSlogan {position: absolute; top: 10px; left: 50%; margin-left: -20%; width: 40%; z-index: 3;}
+.mainRoyal {position: relative; top: -80px; width: 96%; max-width: 1200px; min-height: 320px; margin: 0 auto; z-index: 4; background: #000000 url('/images/mainRoyal.png') center top repeat-x;}
+.mainLocket {position: absolute; top: -43px; right: 4%; width: 50px; height: 170px; background-image: url('/images/mainLocket.png'); z-index: 5;}
+.royalFadeOut_l {float: left; width: 5%; min-height: 320px; background: url('/images/fadeOut_l.png') left top repeat-y;}
+.royalFadeOut_r {float: right; width: 5%; min-height: 320px; background: url('/images/fadeOut_r.png') right top repeat-y;}
+.mainContent {float: left; width: 86%; margin: 40px auto 20px auto; text-align: center;}
+.mainContent_rc {float: left; width: 50%; overflow: hidden; margin: 0 auto; text-align: left;}
+.mainContent_lc {float: left; width: 50%; overflow: hidden; margin: 0 auto; text-align: center;}
+.mainContent_lc .date {width: 80%;}
+.mainContent_lc .age {padding-top: 30px;}
+
+
+
+/* News include list */
+.newsList .newsdate {font-size: 100%; text-shadow: 0px -2px 2px #050d12;}
+.newsList .newshd {position: relative; display: inline-block; margin-bottom: 5px; padding-top: 5px; line-height: 100%; font-style: italic; text-shadow: 0px -2px 2px #000000;}
+.newsList .newsbox {font-size: 120%; text-shadow: 0px -1px 2px #0d293a;}
+.newsList .newsbox p {padding: 5px 10px 5px 0px;}
+.newsList .newsbox p:first-child::first-letter {font-style: bold; font-size: 140%;}
+.newsList .newsbox div.newsnote {padding: 10px 10px 10px 0; font-style: italic; font-size: 90%;}
+a.gallery_news, a.videos_news {display: inline-block; overflow: hidden; text-align: center; vertical-align: top; margin: 5px 5px 5px 0;}
+
+body#index .newsbox {display: none;}
+body#index .newsdate {color: #e0f5ff;}
+body#index .newshd {cursor: pointer; color: #abd0e5; border-bottom: 1px dotted #abd0e5;}
+body#index .newshd:hover {color: #d5edfb; border-bottom: 1px dotted #c2e1f3; text-shadow: 0px -4px 8px #407ba4;}
+body#index .newsList ul li {padding-bottom: 15px;}
+body#index .newshd {font-size: 160%;}
+body#index .newsnote {color: #9eb4bc;}
+body#index a.gallery_news, body#index a.videos_news {border: 2px solid #337294;}
+body#index a.gallery_news:hover, body#index a.videos_news:hover {border: 2px solid #5db3e1;}
+.mainContent_rc h3 {font-size: 160%; padding-bottom: 15px; color: #baddee; text-shadow: 0px -2px 2px #061d2b;}
+.mainContent .newsMore {padding-top: 10px; font-size: 120%;}
+
+
+
+
+/* News */
+body#news .newsbox {display: block;}
+body#news .newsdate {color: #e7be78;}
+body#news .newshd {color: #f0db9e;}
+body#news .newshd:hover {color: #f0db9e;}
+body#news .newsList ul li {margin-bottom: 40px; padding-bottom: 5px; border-bottom: 1px dashed #715e3c;}
+body#news .newshd {font-size: 180%;}
+body#news .newsbox p {color: #dedaca;}
+body#news .newsnote {color: #d1bf84;}
+body#news a.gallery_news, body#news a.videos_news {border: 2px solid #946533;}
+body#news a.gallery_news:hover, body#news a.videos_news:hover {border: 2px solid #db9d5a;}
+
+.newsLocket {position: absolute; top: -43px; left: 29%; width: 50px; height: 170px; background-image: url('/images/mainLocket.png'); z-index: 5;}
+.newsSlogan {position: absolute; top: 58px; left: 7%; z-index: 6; width: 180px; text-align: right; font-size: 130%; font-style: italic; color: #ecba84; text-shadow: 1px 1px 2px #000000;}
+
+.newsRoyal {position: relative; top: -120px; width: 96%; max-width: 1200px; min-height: 320px; margin: -100px auto 10px auto; z-index: 4;}
+.newsContent {float: left; width: 86%; margin: 40px auto 20px auto; text-align: center;}
+.newsContent_rc {float: left; width: 60%; overflow: hidden; margin: 0 auto; text-align: left;}
+.newsContent_lc {float: left; width: 36%; overflow: hidden; margin: 0 auto; text-align: center;}
+
+
+
+/* Pages common */
+.pagesAge {position: absolute; top: 20px; right: 20px; z-index: 6; width: 70px; height: 70px; text-align: right; background-image:url('/images/age.png'); background-position: center center; background-repeat: no-repeat;}
+
+.pagesLogo {position: absolute; bottom: 284px; left: 60%; width: 30%; z-index: 5; margin-left: -15%;}
+.pagesLogoHover {visibility: hidden; position: absolute; bottom: 288px; left: 60%; width: 30%; z-index: 3; margin-left: -15%;}
+.pagesLogoLink:hover .pagesLogoHover {visibility: visible;}
+
+.pagesMenu {position: absolute; bottom: 220px; z-index: 3; width: 100%; margin: 0 auto; overflow: hidden;}
+.pagesMenuShadow {position: absolute; bottom: 200px; z-index: 3; width: 100%; height: 20px; margin: 0 auto; background: url('/images/pagesMenuShadow.png') left top repeat-x;}
+
+
+
+/* About */
+.aboutLocket {position: absolute; top: -83px; left: 43.5%; width: 50px; height: 170px; background-image: url('/images/mainLocket.png'); z-index: 5;}
+.aboutSlogan {position: absolute; top: 40px; left: 7.5%; z-index: 6; width: 180px; text-align: right; font-size: 130%; font-style: italic; color: #b2be98; text-shadow: 1px 1px 2px #000000;}
+
+.aboutContentWrap {position: relative; top: -100px; width: 96%; max-width: 1200px; margin: -80px auto 20px auto; z-index: 4;}
+
+.aboutContent {float: right; width: 98%; margin: 5px auto 15px auto; text-align: center; font-size: 120%; text-shadow: 0px -1px 2px #0d293a;}
+.aboutContent_lc {float: left; width: 45%; overflow: hidden; margin: 0 auto; text-align: right;}
+.aboutContent_rc {float: right; width: 52%; overflow: hidden; margin: 0 auto; text-align: left;}
+
+.aboutContent h3 {margin-top: 5px; margin-bottom: 15px; font-size: 180%; font-style: italic; color: #dcedf7; text-shadow: 0px -2px 2px #000000;}
+.aboutContent p {padding: 5px 0 8px 0;}
+.aboutContent .aboutContent_rc p::first-letter {font-style: bold; font-size: 140%;}
+.aboutContent dl {display: block; clear: both; padding-top: 10px;}
+.aboutContent dl dt {font-size: 80%; color: #9eb3bf;}
+.aboutContent dl dd {font-size: 90%; padding-bottom: 10px;}
+
+
+
+/* Gallery */
+.gallerySlogan {position: absolute; top: 50px; left: 7%; z-index: 6; width: 180px; text-align: right; font-size: 130%; font-style: italic; color: #b1afce; text-shadow: 1px 1px 2px #000000;}
+.galleryLocket {position: absolute; top: -73px; right: 14.7%; width: 50px; height: 170px; background-image: url('/images/mainLocket.png'); z-index: 5;}
+
+a.gallery_pics, .gallery_pics_notfancy {display: inline-block; overflow: hidden; text-align: center; vertical-align: top; margin: 5px; border: 1px solid #337294;}
+a.gallery_pics:hover, .gallery_pics_notfancy:hover {border: 1px solid #5db3e1; box-shadow: 0px 0px 8px rgba(149,207,236,1); -moz-box-shadow: 0px 0px 8px rgba(149,207,236,1); -webkit-box-shadow: 0px 0px 8px rgba(149,207,236,1);}
+
+.galleryContentWrap {position: relative; top: -100px; width: 96%; max-width: 1200px; margin: -90px auto 20px auto; z-index: 4;}
+.galleryContent {float: right; width: 98%; margin: 5px auto 15px auto; text-align: center; font-size: 120%; text-shadow: 0px -1px 2px #0d293a;}
+.galleryContent_frr {float: right; width: 22%; overflow: hidden; margin: 0 auto;}
+.galleryContent_frl {float: right; width: 670px; overflow: hidden; margin: 0 auto; text-align: right; padding: 0 10px 0 10px; background: url('/images/blockPatternBlue.png') top left repeat-x; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; border-top: 1px solid #6e78a5;}
+.galleryContent_srr {float: right; width: 47%; overflow: hidden; margin: 0 auto; text-align: center; background: url('/images/blockPatternBlue.png') top left repeat-x; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; border-top: 1px solid #525a7c;}
+.galleryContent_srl {float: left; width: 52%; overflow: hidden; margin: 0 auto; text-align: center; background: url('/images/blockPatternBlue.png') top left repeat-x; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; border-top: 1px solid #525a7c;}
+.galleryContent_srr_Safe, .galleryContent_srl_Safe {padding: 0 10px 10px 10px;}
+.galleryContent_tr {padding: 10px; background: url('/images/blockPatternBlue.png') top left repeat-x; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; border-top: 1px solid #424864;}
+
+.galleryContent h3 {margin-top: 5px; margin-bottom: 20px; font-size: 180%; font-style: italic; color: #dcedf7; text-shadow: 0px -2px 2px #000000;}
+.galleryContent h4 {padding-top: 15px; padding-right: 5px; padding-left: 5px; margin-bottom: 2px; font-size: 150%; font-style: italic; color: #dcedf7; text-shadow: 0px -2px 2px #000000;}
+.galleryHDsub {font-size: 85%; color: #9eb3bf; padding-right: 5px; padding-left: 5px;}
+.galleryContent p {padding: 5px 0 8px 0;}
+.galleryContent .galleryContent_rc p::first-letter {font-style: bold; font-size: 140%;}
+
+
+
+/* Video */
+.videoLocket {position: absolute; top: -83px; left: 4%; width: 50px; height: 170px; background-image: url('/images/mainLocket.png'); z-index: 5;}
+.videoSlogan {position: absolute; top: 50px; left: 7%; z-index: 6; width: 180px; text-align: right; font-size: 130%; font-style: italic; color: #e6d6ae; text-shadow: 1px 1px 2px #000000;}
+
+.videoContentWrap {position: relative; top: -100px; width: 96%; max-width: 1200px; margin: -80px auto 20px auto; z-index: 4;}
+.videoContent {float: right; width: 98%; margin: 5px auto 10px auto; text-align: center; font-size: 120%; text-shadow: 0px -1px 2px #0d293a;}
+.videoContent_phrase {float: right; width: 52%; overflow: hidden; margin: 0 auto; text-align: left;}
+.videoContent_frl {float: left; width: 43%; overflow: hidden; margin: 0 auto; text-align: right;}
+.videoContent_frr {float: left; width: 470px; overflow: hidden; margin: 0 auto; padding: 0 10px 10px 15px; text-align: left; background: url('/images/blockPatternRed.png') top left repeat-x; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; border-top: 1px solid #ae9363;}
+.videoContent_sr {width: 818px; margin: 0 auto; padding: 5px 10px 10px 17px; text-align: left; background: url('/images/blockPatternRed.png') top left repeat-x; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; border-top: 1px solid #6c5244;}
+.videosMiscWrap {background: url('/images/blockPatternRed.png') top left repeat-x; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; border-top: 1px solid #433026;}
+
+.videoContent h3 {margin-top: 5px; margin-bottom: 15px; font-size: 180%; font-style: italic; color: #dcedf7; text-shadow: 0px -2px 2px #000000;}
+.videoContent p {padding: 5px 0 8px 0;}
+.videoContent .videoContent_rc p::first-letter {font-style: bold; font-size: 140%;}
+.videoContent h4 {padding-top: 10px; padding-right: 5px; padding-left: 5px; margin-bottom: 2px; font-size: 150%; font-style: italic; color: #fad9a3; text-shadow: 0px -2px 2px #000000;}
+.videoHDsub {font-size: 85%; color: #9eb3bf; padding-right: 5px; padding-left: 5px;}
+
+a.videos_items {display: inline-block; overflow: hidden; text-align: center; vertical-align: top; margin: 5px 5px 5px 0; border: 2px solid #b16d24;}
+a.videos_items:hover {border: 2px solid #f2a24e;}
+#beautifulcreatures_russiantrailer2_550 {border: 2px solid #b16d24;}
+#beautifulcreatures_russiantrailer2_550:hover {border: 2px solid #f2a24e;}
+
+.videoItemWrap {display: inline-block; width: 180px; min-height: 130px; vertical-align: top; margin-bottom: 15px;}
+.videoItemWrap span {font-size: 85%; color: #9eb3bf; display: block;}
+
+

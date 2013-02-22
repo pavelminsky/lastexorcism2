@@ -590,7 +590,7 @@ $.fn.jqPuzzle = function(settings, texts) {
 					height: fullHeight,
 					left: computedStyles.wrapper.padding,
 					top: computedStyles.wrapper.padding,
-					backgroundImage: 'url(i/original.jpg)',
+					backgroundImage: 'url(original.jpg)',
 					borderWidth: 0,
 					margin: 0,
 					padding: 0,
