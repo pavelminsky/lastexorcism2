@@ -38,10 +38,10 @@
 <link href="/css/video-js.css" rel="stylesheet">
 <script type="text/javascript" src="/js/video.js"></script>
 <style type="text/css">
-.vjs-default-skin .vjs-play-progress {background: #005f99;}
-.vjs-default-skin .vjs-load-progress {background: #204d62;}
+.vjs-default-skin .vjs-play-progress {background: #969696;}
+.vjs-default-skin .vjs-load-progress {background: #5a5a5a;}
 .vjs-default-skin .vjs-seek-handle {display: none;}
-.vjs-default-skin .vjs-current-time-display, .vjs-default-skin .vjs-remaining-time-display {font: normal 10px Arial; color: #647378; text-shadow: none;}
+.vjs-default-skin .vjs-current-time-display, .vjs-default-skin .vjs-remaining-time-display {font: normal 10px Arial; color: #6f7374; text-shadow: none;}
 </style>
 
 </head><body>
@@ -65,7 +65,11 @@ video/lastexorcism2_russiantrailer_550.ogv
 
 
 
-<div id="beautifulcreatures_russiantrailer2_550" style="width: 800px; height: 332px;;"><video class="video-js vjs-default-skin" controls preload="auto" width="800" height="332" poster="http://www.beautifulcreaturesmovie.ru/video/beautifulcreatures_russiantrailer2_550.jpg" data-setup="{}"><source src="http://www.beautifulcreaturesmovie.ru/video/beautifulcreatures_russiantrailer2_550.mp4" type='video/mp4'><source src="http://www.beautifulcreaturesmovie.ru/video/beautifulcreatures_russiantrailer2_550.ogv" type='video/ogg'></video></div>
+<p>&nbsp;</p>
+
+<div id="lastexorcism2_russiantrailer_550" style="width: 800px; height: 332px;;"><video class="video-js vjs-default-skin" controls preload="auto" width="800" height="332" poster="/video/lastexorcism2_russiantrailer_550.jpg" data-setup="{}"><source src="http://www.lastexorcism2.ru/video/lastexorcism2_russiantrailer_550.mp4" type='video/mp4'><source src="http://www.lastexorcism2.ru/video/lastexorcism2_russiantrailer_550.ogv" type='video/ogg'></video></div>
+
+<p>&nbsp;</p>
 
 <p><a class="stills" data-fancybox-group="gallery_stills" href="http://www.beautifulcreaturesmovie.ru/gallery/stills/01.jpg"><img src="http://www.beautifulcreaturesmovie.ru/gallery/stills/01s.jpg" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="http://www.beautifulcreaturesmovie.ru/gallery/stills/02.jpg"><img src="http://www.beautifulcreaturesmovie.ru/gallery/stills/02s.jpg" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="http://www.beautifulcreaturesmovie.ru/gallery/stills/03.jpg"><img src="http://www.beautifulcreaturesmovie.ru/gallery/stills/03s.jpg" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="http://www.beautifulcreaturesmovie.ru/gallery/stills/04.jpg"><img src="http://www.beautifulcreaturesmovie.ru/gallery/stills/04s.jpg" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="http://www.beautifulcreaturesmovie.ru/gallery/stills/05.jpg"><img src="http://www.beautifulcreaturesmovie.ru/gallery/stills/05s.jpg" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="http://www.beautifulcreaturesmovie.ru/gallery/stills/06.jpg"><img src="http://www.beautifulcreaturesmovie.ru/gallery/stills/06s.jpg" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="http://www.beautifulcreaturesmovie.ru/gallery/stills/07.jpg"><img src="http://www.beautifulcreaturesmovie.ru/gallery/stills/07s.jpg" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="http://www.beautifulcreaturesmovie.ru/gallery/stills/08.jpg"><img src="http://www.beautifulcreaturesmovie.ru/gallery/stills/08s.jpg" alt=""></a></p>
 
