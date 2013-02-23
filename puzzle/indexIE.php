@@ -21,8 +21,8 @@ i {font-style: normal;}
 .clearfix {display: block;}
 html[xmlns] .clearfix {display: block;}
 * html .clearfix {height: 1%;}
-body {width: 100%; min-width: 620px; text-align: center; font-size: 1.5em; color: #000000; font-family: 'Garamond', serif; background-color: #ffffff;}
-.age {position: absolute; top: 10px; left: 10px; width: 50px; height: 50px; z-index: 2; background: url('age.png') center center no-repeat;}
+body {width: 100%; min-width: 620px; text-align: center; font-size: 1.5em; color: #000000; font-family: 'Garamond', serif; background: #f9f9f9 url('/images/body_bg.png') left top repeat;}
+.age {position: absolute; top: 10px; left: 10px; width: 50px; height: 50px; z-index: 2; background: url('/images/age.png') center center no-repeat;}
 .back {position: absolute; top: 10px; right: 10px;}
 .back a {display: block; width: 50px; height: 75px; z-index: 2; background: url('back.png') center center no-repeat;}
 .back a:hover {opacity: 0.80; -moz-opacity: 0.80; -khtml-opacity: 0.80; filter: alpha(opacity=80);}

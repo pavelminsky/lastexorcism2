@@ -50,49 +50,6 @@
 
 
 
-
-
-<!--
-Полный пакет:
-404 (дьявол добрался и сюда. теперь этой страницы не существует. а может, она была изгнана навсегда.)
-аватара для шаринга 90x90
-
-
-ролики:
-video/lastexorcism2_russiantrailer_550.mp4
-video/lastexorcism2_russiantrailer_550.ogv
--->
-
-
-<style type="text/css">
-html {height: 100%;}
-body {overflow: auto; height: 100%; min-width: 960px; min-height: 600px; background: #f9f9f9 url('/images/body_bg.png') left top repeat; color: #393939; line-height: 14px; font-family: 'Playfair Display SC', 'Garamond', serif;}
-
-.age {position: absolute; top: 10px; left: 10px; width: 50px; height: 50px; z-index: 2; background: url('/images/age.png') center center no-repeat;}
-.puzzle {position: absolute; top: 10px; right: 10px; z-index: 2;}
-.puzzle a {display: block; width: 50px; height: 50px; text-decoration: none; background: url('/images/puzzle.png') center center no-repeat;}
-
-.superwrap {width: 880px; margin: 0 auto; text-align: center; font-size: 80%;}
-
-.supertop {width: 800px; height: 281px; margin: 0 auto; background: url('/images/supertop.png') center center no-repeat;}
-
-.supercontent {width: 870px; margin: 0 auto; padding: 20px 0 20px 0; text-align: center;}
-
-.supercontent .superleft {float: left; width: 420px; height: 500px; padding-right: 10px; background: url('/images/superright_bg.png') center center no-repeat;}
-.supercontent .superright {float: right; width: 420px; margin: 30px 0 20px 10px; font-size: 14px; line-height: 20px; text-align: left; text-shadow: 0 1px 1px #ffffff;}
-.supercontent .superright p {padding-bottom: 14px;}
-.supercontent .superright b {font-weight: bold;}
-
-a:link, a:visited {color: #624d24;}
-a:hover {color: #9c683a;}
-
-#counters {position: fixed; bottom: -160px; right: 40px; z-index: 1005; width: 140px; height: 180px; text-align: right; background-image:url('/images/counters.png'); background-position: right top; background-repeat: no-repeat;}
-.counters_list {padding-top: 30px; opacity: 0.40; -moz-opacity: 0.40; -khtml-opacity: 0.40; filter: alpha(opacity=40);}
-.counters_list p {padding: 0; margin: 0; padding-bottom: 6px; font-size: 11px; color: #3e4548;}
-#counters:hover {bottom: 0;}
-</style>
-
-
 <div class="age">&nbsp;</div>
 <div class="puzzle"><a href="/puzzle/">&nbsp;</a></div>
 
