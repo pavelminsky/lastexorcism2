@@ -54,6 +54,8 @@ a:hover {color: #9c683a;}
 .counters_list p {padding: 0; margin: 0; padding-bottom: 6px; font-size: 11px; color: #3e4548;}
 #counters:hover {bottom: 0;}
 
+
+
 .error_wrap {width: 600px; padding-top: 60px; margin: 0 auto; text-align: center;}
 .error_wrap h1 {padding-bottom: 30px; font-size: 32px; font-weight: bold;}
 .error_wrap p {padding: 10px 10px 10px 10px; font-size: 14px; line-height: 18px;}
@@ -63,54 +65,13 @@ a:hover {color: #9c683a;}
 
 
 
-/* Gallery */
-.gallerySlogan {position: absolute; top: 50px; left: 7%; z-index: 6; width: 180px; text-align: right; font-size: 130%; font-style: italic; color: #b1afce; text-shadow: 1px 1px 2px #000000;}
-.galleryLocket {position: absolute; top: -73px; right: 14.7%; width: 50px; height: 170px; background-image: url('/images/mainLocket.png'); z-index: 5;}
-
-a.gallery_pics, .gallery_pics_notfancy {display: inline-block; overflow: hidden; text-align: center; vertical-align: top; margin: 5px; border: 1px solid #337294;}
-a.gallery_pics:hover, .gallery_pics_notfancy:hover {border: 1px solid #5db3e1; box-shadow: 0px 0px 8px rgba(149,207,236,1); -moz-box-shadow: 0px 0px 8px rgba(149,207,236,1); -webkit-box-shadow: 0px 0px 8px rgba(149,207,236,1);}
-
-.galleryContentWrap {position: relative; top: -100px; width: 96%; max-width: 1200px; margin: -90px auto 20px auto; z-index: 4;}
-.galleryContent {float: right; width: 98%; margin: 5px auto 15px auto; text-align: center; font-size: 120%; text-shadow: 0px -1px 2px #0d293a;}
-.galleryContent_frr {float: right; width: 22%; overflow: hidden; margin: 0 auto;}
-.galleryContent_frl {float: right; width: 670px; overflow: hidden; margin: 0 auto; text-align: right; padding: 0 10px 0 10px; background: url('/images/blockPatternBlue.png') top left repeat-x; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; border-top: 1px solid #6e78a5;}
-.galleryContent_srr {float: right; width: 47%; overflow: hidden; margin: 0 auto; text-align: center; background: url('/images/blockPatternBlue.png') top left repeat-x; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; border-top: 1px solid #525a7c;}
-.galleryContent_srl {float: left; width: 52%; overflow: hidden; margin: 0 auto; text-align: center; background: url('/images/blockPatternBlue.png') top left repeat-x; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; border-top: 1px solid #525a7c;}
-.galleryContent_srr_Safe, .galleryContent_srl_Safe {padding: 0 10px 10px 10px;}
-.galleryContent_tr {padding: 10px; background: url('/images/blockPatternBlue.png') top left repeat-x; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; border-top: 1px solid #424864;}
-
-.galleryContent h3 {margin-top: 5px; margin-bottom: 20px; font-size: 180%; font-style: italic; color: #dcedf7; text-shadow: 0px -2px 2px #000000;}
-.galleryContent h4 {padding-top: 15px; padding-right: 5px; padding-left: 5px; margin-bottom: 2px; font-size: 150%; font-style: italic; color: #dcedf7; text-shadow: 0px -2px 2px #000000;}
-.galleryHDsub {font-size: 85%; color: #9eb3bf; padding-right: 5px; padding-left: 5px;}
-.galleryContent p {padding: 5px 0 8px 0;}
-.galleryContent .galleryContent_rc p::first-letter {font-style: bold; font-size: 140%;}
 
 
 
-/* Video */
-.videoLocket {position: absolute; top: -83px; left: 4%; width: 50px; height: 170px; background-image: url('/images/mainLocket.png'); z-index: 5;}
-.videoSlogan {position: absolute; top: 50px; left: 7%; z-index: 6; width: 180px; text-align: right; font-size: 130%; font-style: italic; color: #e6d6ae; text-shadow: 1px 1px 2px #000000;}
 
-.videoContentWrap {position: relative; top: -100px; width: 96%; max-width: 1200px; margin: -80px auto 20px auto; z-index: 4;}
-.videoContent {float: right; width: 98%; margin: 5px auto 10px auto; text-align: center; font-size: 120%; text-shadow: 0px -1px 2px #0d293a;}
-.videoContent_phrase {float: right; width: 52%; overflow: hidden; margin: 0 auto; text-align: left;}
-.videoContent_frl {float: left; width: 43%; overflow: hidden; margin: 0 auto; text-align: right;}
-.videoContent_frr {float: left; width: 470px; overflow: hidden; margin: 0 auto; padding: 0 10px 10px 15px; text-align: left; background: url('/images/blockPatternRed.png') top left repeat-x; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; border-top: 1px solid #ae9363;}
-.videoContent_sr {width: 818px; margin: 0 auto; padding: 5px 10px 10px 17px; text-align: left; background: url('/images/blockPatternRed.png') top left repeat-x; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; border-top: 1px solid #6c5244;}
-.videosMiscWrap {background: url('/images/blockPatternRed.png') top left repeat-x; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; border-top: 1px solid #433026;}
 
-.videoContent h3 {margin-top: 5px; margin-bottom: 15px; font-size: 180%; font-style: italic; color: #dcedf7; text-shadow: 0px -2px 2px #000000;}
-.videoContent p {padding: 5px 0 8px 0;}
-.videoContent .videoContent_rc p::first-letter {font-style: bold; font-size: 140%;}
-.videoContent h4 {padding-top: 10px; padding-right: 5px; padding-left: 5px; margin-bottom: 2px; font-size: 150%; font-style: italic; color: #fad9a3; text-shadow: 0px -2px 2px #000000;}
-.videoHDsub {font-size: 85%; color: #9eb3bf; padding-right: 5px; padding-left: 5px;}
 
-a.videos_items {display: inline-block; overflow: hidden; text-align: center; vertical-align: top; margin: 5px 5px 5px 0; border: 2px solid #b16d24;}
-a.videos_items:hover {border: 2px solid #f2a24e;}
-#beautifulcreatures_russiantrailer2_550 {border: 2px solid #b16d24;}
-#beautifulcreatures_russiantrailer2_550:hover {border: 2px solid #f2a24e;}
 
-.videoItemWrap {display: inline-block; width: 180px; min-height: 130px; vertical-align: top; margin-bottom: 15px;}
-.videoItemWrap span {font-size: 85%; color: #9eb3bf; display: block;}
+
 
 
