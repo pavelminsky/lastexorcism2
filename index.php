@@ -46,48 +46,31 @@
 
 </head><body>
 
-<noscript><div style="position: absolute; width: 500px; height: 120px; z-index: 9999; top: -5px; left: 50%; margin-left: -250px;"><img src="/images/noscript.png" alt="В вашем браузере отключен JavaScript"></div></noscript>
-
-
-
 <div class="age">&nbsp;</div>
 <div class="puzzle"><a href="/puzzle/">&nbsp;</a></div>
 
-<div class="superwrap">
+<div class="wrap">
 
-	<div class="supertop">&nbsp;</div>
-
-	<p>&nbsp;</p>
+	<div class="top">&nbsp;</div>
 
 	<div id="lastexorcism2_russiantrailer_550" style="width: 800px; height: 332px; margin: 0 auto;"><video class="video-js vjs-default-skin" controls preload="auto" width="800" height="332" poster="/video/lastexorcism2_russiantrailer_550.jpg" data-setup="{}"><source src="http://www.lastexorcism2.ru/video/lastexorcism2_russiantrailer_550.mp4" type='video/mp4'><source src="http://www.lastexorcism2.ru/video/lastexorcism2_russiantrailer_550.ogv" type='video/ogg'></video></div>
 
-
-	<div class="supercontent clearfix">
-		<div class="superleft">&nbsp;</div>
-		<div class="superright">
-			<p><b>Нелл находят в лесу</b> — грязную и напуганную, только что сбежавшую со страшного ритуала. Вся ее семья погибла и девушку отправляют в Новый Орлеан — приют для девочек. Там она попадает под присмотр терапевта Фрэнка Мерле. Жизнь вроде бы налаживается, Нелл влюбляется в местного мальчика, но в самый неподходящий момент демон вновь объявляется и овладевает Нелл. Теперь он хочет от нее нечто большее…</p>
+	<div class="content clearfix">
+		<div class="left">&nbsp;</div>
+		<div class="right">
+			<p><b>Нелл находят в лесу</b> — грязную и напуганную, только что сбежавшую со страшного ритуала. Вся её семья погибла, и девушку отправляют в Новый Орлеан — приют для девочек. Там она попадает под присмотр терапевта Фрэнка Мерле. Жизнь вроде бы налаживается, Нелл влюбляется в местного мальчика, но в самый неподходящий момент демон вновь объявляется и вселяется в Нелл. Теперь он хочет от неё чего-то большего...</p>
 			<p style="color: #9d1e00;">Первый фильм вышел в прокат в 2010 году.</p>
 			<p style="color: #9d1e00;"><b>Второе пришествие Зла на российские экраны состоится 28 февраля 2013 года.</b></p>
 			<p>&nbsp;</p>
-			<p><b>Режиссер:</b> Эд Гасс-Доннели</p>
+			<p><b>Режиссёр:</b> Эд Гасс-Доннели</p>
 			<p><b>Сценарий:</b> Дэмьен Шазелл, Эд Гасс-Доннели</p>
 			<p><b>В ролях:</b> Спенсер Трит Кларк, Эшли Белл, Эндрю Сенсениг, Джудд Лорманд, Джулия Гарнер, Мьюз Уотсон, Э. Роджер Митчелл</p>
 		</div>
 	</div>
 
-
-	<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-
-	<? //<p><a class="stills" data-fancybox-group="gallery_stills" href="http://www.beautifulcreaturesmovie.ru/gallery/stills/01.jpg"><img src="http://www.beautifulcreaturesmovie.ru/gallery/stills/01s.jpg" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="http://www.beautifulcreaturesmovie.ru/gallery/stills/02.jpg"><img src="http://www.beautifulcreaturesmovie.ru/gallery/stills/02s.jpg" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="http://www.beautifulcreaturesmovie.ru/gallery/stills/03.jpg"><img src="http://www.beautifulcreaturesmovie.ru/gallery/stills/03s.jpg" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="http://www.beautifulcreaturesmovie.ru/gallery/stills/04.jpg"><img src="http://www.beautifulcreaturesmovie.ru/gallery/stills/04s.jpg" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="http://www.beautifulcreaturesmovie.ru/gallery/stills/05.jpg"><img src="http://www.beautifulcreaturesmovie.ru/gallery/stills/05s.jpg" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="http://www.beautifulcreaturesmovie.ru/gallery/stills/06.jpg"><img src="http://www.beautifulcreaturesmovie.ru/gallery/stills/06s.jpg" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="http://www.beautifulcreaturesmovie.ru/gallery/stills/07.jpg"><img src="http://www.beautifulcreaturesmovie.ru/gallery/stills/07s.jpg" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="http://www.beautifulcreaturesmovie.ru/gallery/stills/08.jpg"><img src="http://www.beautifulcreaturesmovie.ru/gallery/stills/08s.jpg" alt=""></a></p> ?>
-
-	<!--h1><a href="/puzzle/">Puzzle</a></h1-->
-
-
-
+	<p><a class="stills" data-fancybox-group="gallery_stills" href="/media/01.jpg"><img src="/media/01s.png" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="/media/02.jpg"><img src="/media/02s.png" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="/media/03.jpg"><img src="/media/03s.png" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="/media/04.jpg"><img src="/media/04s.png" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="/media/05.jpg"><img src="/media/05s.png" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="/media/06.jpg"><img src="/media/06s.png" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="/media/07.jpg"><img src="/media/07s.png" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="/media/08.jpg"><img src="/media/08s.png" alt=""></a></p>
 
 	<div class="copy">&copy; 2013 &laquo;<a href="http://www.westvideo.ru">Вест Видео</a>&raquo;. Создание сайта: <a href="http://www.kg-design.ru/">КГ-Дизайн</a></div>
-
-
 
 	<div id="counters">
 		<div class="counters_list">
@@ -98,11 +81,7 @@
 		</div>
 	</div>
 
-
 </div>
-
-
-
 
 <!-- Fancybox -->
 <script type="text/javascript" src="/js/jquery.fancybox.js?v=2.1.1"></script>
@@ -129,7 +108,5 @@ helpers : {thumbs : {width  : 90, height : 50}}
 });
 });
 </script>
-
-
 
 </body></html>

@@ -4,7 +4,7 @@
 
 .fancybox-wrap {position: absolute; top: 0; left: 0; z-index: 8020;}
 
-.fancybox-skin {position: relative; background: #4397b2; color: #444; text-shadow: none;}
+.fancybox-skin {position: relative; background: #6b1500; color: #444; text-shadow: none;}
 .fancybox-opened {z-index: 8030;}
 .fancybox-opened .fancybox-skin {-webkit-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5); -moz-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5); box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);}
 .fancybox-outer, .fancybox-inner {position: relative;}
@@ -50,7 +50,7 @@
 #fancybox-thumbs.top {top: 2px;}
 #fancybox-thumbs ul {position: relative; list-style: none; margin: 0; padding: 0;}
 #fancybox-thumbs ul li {float: left; padding: 2px; opacity: 0.7;}
-#fancybox-thumbs ul li.active {opacity: 1; padding: 0; border: 2px solid #4397b2;}
+#fancybox-thumbs ul li.active {opacity: 1; padding: 0; border: 2px solid #5a1000;}
 #fancybox-thumbs ul li:hover {opacity: 1;}
-#fancybox-thumbs ul li a {display: block; position: relative; overflow: hidden; border: 2px solid #395c7e; background: #203951; outline: none;}
+#fancybox-thumbs ul li a {display: block; position: relative; overflow: hidden; border: 2px solid #707070; background: #203951; outline: none;}
 #fancybox-thumbs ul li img {display: block; position: relative; border: 0; padding: 0;}
