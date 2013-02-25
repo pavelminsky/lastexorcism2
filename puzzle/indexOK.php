@@ -1,7 +1,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
 <head>
-<title>Последнее изгнание дьявола: Второе пришествие — В кино с 28 февраля</title>
+<title>Последнее изгнание дьявола: Второе пришествие — В кино с 1 марта</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="apple-mobile-web-app-title" content="Изыди!">
 

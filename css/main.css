@@ -29,7 +29,7 @@ a:hover {color: #9c683a;}
 
 .wrap {width: 880px; margin: 0 auto; text-align: center; font-size: 80%;}
 
-.top {width: 800px; height: 300px; margin: 0 auto; background: url('/images/top.png') center top no-repeat;}
+.top {width: 800px; height: 300px; margin: 0 auto; background: url('/images/top_text.png') center top no-repeat;}
 
 .content {width: 870px; margin: 0 auto; padding: 20px 0 20px 0; text-align: center;}
 .content .left {float: left; width: 420px; height: 500px; padding-right: 10px; background: url('/images/right_bg.png') center center no-repeat;}
